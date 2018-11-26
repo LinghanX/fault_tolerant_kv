@@ -5,4 +5,4 @@ include_directories(include)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(key_value main.cpp)
+add_executable(key_value main.cpp client.h client.cpp parse.h parse.cpp)
